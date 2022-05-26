@@ -1,0 +1,70 @@
+.main {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.input_form {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 400;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    width: 85px;
+    height: 40px;
+    font-size: 1.5em;
+    outline: 0;
+    border: none;
+}
+
+.todolist {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px 10px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+a {
+    float: right;
+    text-align: right;
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: tomato;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    color: white;
+    cursor: pointer;
+}
